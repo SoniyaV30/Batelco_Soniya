@@ -87,9 +87,6 @@ public class KeyWord {
 	public String BT_Resume() {
 		return KBSiebel.BT_Resume();
 	}
-	public String Batelco_Address() {
-		return KBSiebel.Batelco_Address();
-	}
 
 	public String BT_Disconnection() {
 		return KBSiebel.BT_Disconnection();
