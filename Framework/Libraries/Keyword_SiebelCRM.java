@@ -651,6 +651,7 @@ public class Keyword_SiebelCRM extends Driver {
 	--------------------------------------------------------------------------------------------------------*/
 	public void Batelco_Address() {
 	String Test_OutPut = "", Status = "";
+	String test ="";
 	Result.fUpdateLog("------Address Creation Event Details------");
 	try {
 		
