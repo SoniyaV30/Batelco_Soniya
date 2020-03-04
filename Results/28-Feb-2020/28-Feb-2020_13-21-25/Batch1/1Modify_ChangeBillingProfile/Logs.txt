@@ -1,0 +1,48 @@
+No of Keywords to be executed in Modify_ChangeBillingProfile:3
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------ Modify Service Creation Event Details------
+Exception occurred *** org.openqa.selenium.StaleElementReferenceException: Error setting arguments for script
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'W10DNBATR01', ip: '10.10.8.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35361/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1052d986-bea5-4383-8aa5-7d65288245b1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
+	at Libraries.Common.ConditionalWait(Common.java:113)
+	at Libraries.Common.JavaScriptClick(Common.java:76)
+	at Libraries.Keyword_SiebelCRM.Account_search(Keyword_SiebelCRM.java:606)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:1981)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Clicked On Accounts Tab
+Final visible status is Identification_Number >>>>> true
+Batch1 :: Failed at Obj: Identification_Number - to set Value: 1902105157
